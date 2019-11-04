@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 
 const BottomRow = () => {
+
+  const [quarter, setQuarter] = useState(4);
+
   return (
     <div className="bottomRow">
       <div className="down">
